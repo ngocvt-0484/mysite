@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-13 11:33+0700\n"
+"POT-Creation-Date: 2021-08-13 14:49+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,74 @@ msgstr ""
 
 #: templates/base_generic.html:21
 msgid "All authors"
+msgstr ""
+
+#: templates/base_generic.html:34
+msgid "previous"
+msgstr ""
+
+#: templates/base_generic.html:38
+msgid "Page"
+msgstr ""
+
+#: templates/base_generic.html:38
+msgid "of"
+msgstr ""
+
+#: templates/base_generic.html:43
+msgid "next"
+msgstr ""
+
+#: templates/catalog/author_list.html:5
+msgid "Author List"
+msgstr ""
+
+#: templates/catalog/author_list.html:15
+msgid "There are no authors."
+msgstr ""
+
+#: templates/catalog/book_detail.html:7
+msgid "Author:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:10
+msgid "Summary:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:11
+msgid "ISBN:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:12
+msgid "Language:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:13
+msgid "Genre:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:16
+msgid "Copies"
+msgstr ""
+
+#: templates/catalog/book_detail.html:24
+msgid "Due to be returned:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:26
+msgid "Imprint:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:27
+msgid "Id:"
+msgstr ""
+
+#: templates/catalog/book_list.html:5
+msgid "Book List"
+msgstr ""
+
+#: templates/catalog/book_list.html:15
+msgid "There are no books in the library."
 msgstr ""
 
 #: templates/index.html:5

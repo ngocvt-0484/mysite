@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-13 11:33+0700\n"
+"POT-Creation-Date: 2021-08-13 14:49+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,84 @@ msgstr "Sách"
 #: templates/base_generic.html:21
 msgid "All authors"
 msgstr "Tác giả"
+
+#: templates/base_generic.html:34
+msgid "previous"
+msgstr "Trước"
+
+#: templates/base_generic.html:38
+msgid "Page"
+msgstr "Trang"
+
+#: templates/base_generic.html:38
+msgid "of"
+msgstr "của"
+
+#: templates/base_generic.html:43
+msgid "next"
+msgstr "Sau"
+
+#: templates/catalog/author_list.html:5
+#, fuzzy
+#| msgid "Authors:"
+msgid "Author List"
+msgstr "Tác giả:"
+
+#: templates/catalog/author_list.html:15
+#, fuzzy
+#| msgid "There are no books in the library."
+msgid "There are no authors."
+msgstr "Không có sách nào trong thư viện."
+
+#: templates/catalog/book_detail.html:7
+#, fuzzy
+#| msgid "Authors:"
+msgid "Author:"
+msgstr "Tác giả:"
+
+#: templates/catalog/book_detail.html:10
+msgid "Summary:"
+msgstr "Bản tóm tắt"
+
+#: templates/catalog/book_detail.html:11
+msgid "ISBN:"
+msgstr ""
+
+#: templates/catalog/book_detail.html:12
+msgid "Language:"
+msgstr "Ngôn ngữ:"
+
+#: templates/catalog/book_detail.html:13
+msgid "Genre:"
+msgstr "Thể loại:"
+
+#: templates/catalog/book_detail.html:16
+#, fuzzy
+#| msgid "Copies:"
+msgid "Copies"
+msgstr "Bản sao:"
+
+#: templates/catalog/book_detail.html:24
+msgid "Due to be returned:"
+msgstr "Đến hạn được trả lại:"
+
+#: templates/catalog/book_detail.html:26
+msgid "Imprint:"
+msgstr "Dấu ấn:"
+
+#: templates/catalog/book_detail.html:27
+msgid "Id:"
+msgstr ""
+
+#: templates/catalog/book_list.html:5
+#, fuzzy
+#| msgid "Books:"
+msgid "Book List"
+msgstr "Sách:"
+
+#: templates/catalog/book_list.html:15
+msgid "There are no books in the library."
+msgstr "Không có sách nào trong thư viện."
 
 #: templates/index.html:5
 msgid "Local Library Home"
