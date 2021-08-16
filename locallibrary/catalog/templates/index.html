@@ -12,4 +12,13 @@
     <li><strong>{% trans 'Copies available:' %}</strong> {{ num_instances_available }}</li>
     <li><strong>{% trans 'Authors:' %}</strong> {{ num_authors }}</li>
   </ul>
+
+  {% get_current_language as LANGUAGE_CODE %}
+  <p>
+    {% if LANGUAGE_CODE == 'en' %}
+      {% trans 'You have visited this page' %} {{ num_visits }} {% trans 'time' %}{{ num_visits|pluralize }}
+    {% else %}
+      {% trans 'You have visited this page' %} {{ num_visits }} {% trans 'time' %}
+    {% endif %}
+  </p>
 {% endblock %}
