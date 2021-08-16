@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 09:35+0700\n"
+"POT-Creation-Date: 2021-08-16 14:55+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,142 +18,162 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: templates/base_generic.html:5
+#: catalog/templates/base_generic.html:5
 #, fuzzy
 #| msgid "Local Library Home"
 msgid "Local Library"
 msgstr "Trang chủ thư viện"
 
-#: templates/base_generic.html:19
+#: catalog/templates/base_generic.html:19
 msgid "Home"
 msgstr "Trang chủ"
 
-#: templates/base_generic.html:20
+#: catalog/templates/base_generic.html:20
 msgid "All books"
 msgstr "Sách"
 
-#: templates/base_generic.html:21
+#: catalog/templates/base_generic.html:21
 msgid "All authors"
 msgstr "Tác giả"
 
-#: templates/base_generic.html:34
+#: catalog/templates/base_generic.html:23
+msgid "User:"
+msgstr "Người dùng:"
+
+#: catalog/templates/base_generic.html:24
+msgid "My Borrowed"
+msgstr "Danh sách mượn"
+
+#: catalog/templates/base_generic.html:25
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: catalog/templates/base_generic.html:27
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: catalog/templates/base_generic.html:41
 msgid "previous"
 msgstr "Trước"
 
-#: templates/base_generic.html:38
+#: catalog/templates/base_generic.html:45
 msgid "Page"
 msgstr "Trang"
 
-#: templates/base_generic.html:38
+#: catalog/templates/base_generic.html:45
 msgid "of"
 msgstr "của"
 
-#: templates/base_generic.html:43
+#: catalog/templates/base_generic.html:50
 msgid "next"
 msgstr "Sau"
 
-#: templates/catalog/author_list.html:5
+#: catalog/templates/catalog/author_list.html:5
 #, fuzzy
 #| msgid "Authors:"
 msgid "Author List"
 msgstr "Tác giả:"
 
-#: templates/catalog/author_list.html:15
+#: catalog/templates/catalog/author_list.html:15
 #, fuzzy
 #| msgid "There are no books in the library."
 msgid "There are no authors."
 msgstr "Không có sách nào trong thư viện."
 
-#: templates/catalog/book_detail.html:7
+#: catalog/templates/catalog/book_detail.html:7
 #, fuzzy
 #| msgid "Authors:"
 msgid "Author:"
 msgstr "Tác giả:"
 
-#: templates/catalog/book_detail.html:10
+#: catalog/templates/catalog/book_detail.html:10
 msgid "Summary:"
 msgstr "Bản tóm tắt"
 
-#: templates/catalog/book_detail.html:11
+#: catalog/templates/catalog/book_detail.html:11
 msgid "ISBN:"
 msgstr ""
 
-#: templates/catalog/book_detail.html:12
+#: catalog/templates/catalog/book_detail.html:12
 msgid "Language:"
 msgstr "Ngôn ngữ:"
 
-#: templates/catalog/book_detail.html:13
+#: catalog/templates/catalog/book_detail.html:13
 msgid "Genre:"
 msgstr "Thể loại:"
 
-#: templates/catalog/book_detail.html:16
+#: catalog/templates/catalog/book_detail.html:16
 #, fuzzy
 #| msgid "Copies:"
 msgid "Copies"
 msgstr "Bản sao:"
 
-#: templates/catalog/book_detail.html:24
+#: catalog/templates/catalog/book_detail.html:24
 msgid "Due to be returned:"
 msgstr "Đến hạn được trả lại:"
 
-#: templates/catalog/book_detail.html:26
+#: catalog/templates/catalog/book_detail.html:26
 msgid "Imprint:"
 msgstr "Dấu ấn:"
 
-#: templates/catalog/book_detail.html:27
+#: catalog/templates/catalog/book_detail.html:27
 msgid "Id:"
 msgstr ""
 
-#: templates/catalog/book_list.html:5
+#: catalog/templates/catalog/book_list.html:5
 #, fuzzy
 #| msgid "Books:"
 msgid "Book List"
 msgstr "Sách:"
 
-#: templates/catalog/book_list.html:15
+#: catalog/templates/catalog/book_list.html:15
 msgid "There are no books in the library."
 msgstr "Không có sách nào trong thư viện."
 
-#: templates/index.html:5
+#: catalog/templates/catalog/bookinstance_list_borrowed_user.html:5
+msgid "Borrowed books"
+msgstr ""
+
+#: catalog/templates/index.html:5
 msgid "Local Library Home"
 msgstr "Trang chủ thư viện"
 
-#: templates/index.html:6
+#: catalog/templates/index.html:6
 msgid "Welcome to LocalLibrary, a website developed by"
 msgstr "Chào mừng bạn đến với LocalLibrary, Web được phát triển bởi"
 
-#: templates/index.html:6
+#: catalog/templates/index.html:6
 msgid "Mozilla Developer Network"
 msgstr ""
 
-#: templates/index.html:7
+#: catalog/templates/index.html:7
 msgid "Dynamic content"
 msgstr "Nội dung thường xuyên cập nhật"
 
-#: templates/index.html:8
+#: catalog/templates/index.html:8
 msgid "The library has the following record counts:"
 msgstr "Thư viện có số lượng các bản ghi như sau:"
 
-#: templates/index.html:10
+#: catalog/templates/index.html:10
 msgid "Books:"
 msgstr "Sách:"
 
-#: templates/index.html:11
+#: catalog/templates/index.html:11
 msgid "Copies:"
 msgstr "Bản sao:"
 
-#: templates/index.html:12
+#: catalog/templates/index.html:12
 msgid "Copies available:"
 msgstr "Bản sao có sẵn:"
 
-#: templates/index.html:13
+#: catalog/templates/index.html:13
 msgid "Authors:"
 msgstr "Tác giả:"
 
-#: templates/index.html:18
+#: catalog/templates/index.html:19 catalog/templates/index.html:21
 msgid "You have visited this page"
 msgstr "Bạn đã ghé trang"
 
-#: templates/index.html:18
+#: catalog/templates/index.html:19 catalog/templates/index.html:21
 msgid "time"
 msgstr "lần"
